@@ -1,0 +1,15 @@
+44563-01 Colton Steeve Introduction
+
+Colton Steeve
+
+I am a senior working on a BS in Interactive Digital Media: Computer Science. I should be able to graduate this fall and I'm excited to get out into the world.
+
+I am from a small town called Hopkins, Missouri and I went to school at North Nodaway RVI. I enjoy playing music and video games. I also like to distro hop between different Linux distributions to try out all of the different features and desktop environments. 
+
+When I graduate, I hope to do some kind of web development or design. I enjoy making websites and just coding in HTML, CSS, and JavaScript in general. I feel like there is so much that can be done with those languages. If you use Electron, you can even use those languages to make desktop programs.
+
+One interesting fact about me is that I studied abroad in Tokyo in the summer of 2017.
+
+https://www.linkedin.com/in/colton-steeve-aa6b9514a/ (Links to an external site.) 
+
+https://github.com/coltonsteeve (Links to an external site.)
