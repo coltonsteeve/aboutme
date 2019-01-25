@@ -3,7 +3,7 @@
 * https://github.com/coltonsteeve/aboutme
 * https://coltonsteeve.github.io/aboutme/
 ## About
-This repo will be used to tell people all about me.
+This repo will be used to tell people all about me and the tools that I utilize to develop web apps.
 ## Recommended Tools
 Theses are some of the tools and languages that are required to publish a repo with Github Pages.
 1. The Markdown Language - https://www.markdownguide.org/
