@@ -6,6 +6,16 @@
 This repo will be used to tell people all about me.
 ## Recommended Tools
 Theses are some of the tools and languages that are required to publish a repo with Github Pages.
-1. The Markdown Language
-1. A Browser
-1. A Github Account
+1. The Markdown Language - https://www.markdownguide.org/
+1. A Browser - https://www.google.com/chrome/
+1. A Github Account - https://www.github.com
+## Recommended Resources 
+These are some of the resources that I like to use for web development.
+1. Visual Studio Code - https://code.visualstudio.com/
+1. Firefox - https://www.mozilla.org/en-US/firefox/new/?f=139
+1. Chrome - https://www.google.com/chrome/
+1. Git - https://git-scm.com/
+## Contributors
+Colton Steeve - IDM:CS Major
+
+
