@@ -17,5 +17,5 @@ These are some of the resources that I like to use for web development.
 1. Git - https://git-scm.com/
 ## Contributors
 Colton Steeve - IDM:CS Major
-
+![Me](aboutme/IMG_0346.jpeg "This is me")
 
