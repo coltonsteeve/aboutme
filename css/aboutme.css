@@ -1,0 +1,10 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    border-style: solid;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: palegoldenrod;
+}
