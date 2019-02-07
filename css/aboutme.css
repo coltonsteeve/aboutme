@@ -1,10 +1,37 @@
 body {
     font-family: sans-serif;
-}
+    /*background-image: url(../images/IMG_20170708_173933.jpg);
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    /* Full height */
+    /*height: 100%;*/
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 h1 {
     border-style: solid;
     padding-top: 1em;
     padding-bottom: 1em;
     background-color: grey;
+}
+
+#intro {
+    margin: 2em;
+}
+
+#middle {
+    margin: 2em;
+}
+
+#bottom {
+    margin: 2em;
+}
+
+footer {
+    margin-left: 2em;
+    margin-bottom: 1em;
 }
