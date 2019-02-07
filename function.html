@@ -16,8 +16,12 @@
         .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
         .tg .tg-s268{text-align:left}
         .tg .tg-0lax{text-align:left;vertical-align:top}
+        .foot {
+          margin-top: 50em;
+        }
     </style>
     <link rel="stylesheet" href="./css/aboutme.css">
+    <script src="./js/aboutme.js"></script>
 </head>
 <body>
     <header>
@@ -48,40 +52,24 @@
     </nav>
 
     <main>
-        <article>
-            <section>
+            <section id="intro">
             44563-01 Colton Steeve Introduction
 
-            <h1>Function</h1>
+            <h1>Temperature Converter</h1>
             </section>
-            <section>
 
-            I am a senior working on a BS in Interactive Digital Media: Computer Science. I should be able to graduate this fall and I'm excited to get out into the world.
+            <section class="converter">
+            <p>
+                <label>Fahrenheit</label>
+                <input id="fahrenheit" type="number" placeholder="Fahrenheit"
+                oninput="tempConverter(this.value)"
+                onchange="tempConverter(this.value)">
+              </p>
+              <p>Celsius: <span id="celsius"></span></p>
             </section>
-            <section>
-            <h2>Background and Hobbies</h2>
-            I am from a small town called Hopkins, Missouri and I went to school at North Nodaway RVI. I enjoy playing music and video games. I also like to distro hop between different Linux distributions to try out all of the different features and desktop environments. 
-            </section>
-            <section>
-            <h2>Plans</h2>
-            When I graduate, I hope to do some kind of web development or design. I enjoy making websites and just coding in HTML, CSS, and JavaScript in general. I feel like there is so much that can be done with those languages. If you use Electron, you can even use those languages to make desktop programs.
-            </section>
-            <section>
-            <h2>Interesting Fact</h2>
-            One interesting fact about me is that I studied abroad in Tokyo in the summer of 2017.
-            </section>
-            <section>
-            <h2>Links</h2>
-            <ul>
-            <li id="github"><a href="https://github.com/coltonsteeve"><img src="./images/GitHub-Mark-64px.png" alt="Github Logo"></a></li> 
-
-            <li id="linkedin"><a href="https://www.linkedin.com/in/colton-steeve-aa6b9514a/"><img src="./images/Logo-2C-66px-R.png" alt=""></a></li>
-            </ul>
-            </section>
-        </article>
 </main>
 <br>
-<footer>
+<footer class="foot">
       &copy;
 </footer>
 <!-- Bootstrap core JavaScript

@@ -48,41 +48,32 @@
     </nav>
 
     <main>
-        <article>
-            <section>
-            44563-01 Colton Steeve Introduction
+        <section id="intro">
+        44563-01 Colton Steeve Introduction
 
-            <h1>Contact</h1>
-            </section>
-            <section>
-
-            I am a senior working on a BS in Interactive Digital Media: Computer Science. I should be able to graduate this fall and I'm excited to get out into the world.
-            </section>
-            <section>
-            <h2>Background and Hobbies</h2>
-            I am from a small town called Hopkins, Missouri and I went to school at North Nodaway RVI. I enjoy playing music and video games. I also like to distro hop between different Linux distributions to try out all of the different features and desktop environments. 
-            </section>
-            <section>
-            <h2>Plans</h2>
-            When I graduate, I hope to do some kind of web development or design. I enjoy making websites and just coding in HTML, CSS, and JavaScript in general. I feel like there is so much that can be done with those languages. If you use Electron, you can even use those languages to make desktop programs.
-            </section>
-            <section>
-            <h2>Interesting Fact</h2>
-            One interesting fact about me is that I studied abroad in Tokyo in the summer of 2017.
-            </section>
-            <section>
-            <h2>Links</h2>
-            <ul>
-            <li id="github"><a href="https://github.com/coltonsteeve"><img src="./images/GitHub-Mark-64px.png" alt="Github Logo"></a></li> 
-
-            <li id="linkedin"><a href="https://www.linkedin.com/in/colton-steeve-aa6b9514a/"><img src="./images/Logo-2C-66px-R.png" alt=""></a></li>
-            </ul>
-            </section>
+        <h1>Contact</h1>
         </section>
-        </article>
-</main>
+      <div class="container">
+        <form>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" onclick="location.href='contact.html';" value="Submit">
+      
+        </form>
+      </div>
+  </main>
 <br>
-<footer>
+<footer class="foot">
       &copy;
 </footer>
 <!-- Bootstrap core JavaScript
