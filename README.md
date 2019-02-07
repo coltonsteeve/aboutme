@@ -18,4 +18,6 @@ These are some of the resources that I like to use for web development.
 ## Contributors
 Colton Steeve - IDM:CS Major
 ![Me](https://github.com/coltonsteeve/aboutme/blob/master/IMG_0346.jpeg?raw=true "This is me!")
-
+## References
+1. Bootstrap
+1. w3schools.com
