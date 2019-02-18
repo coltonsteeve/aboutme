@@ -4,7 +4,7 @@ function tempConverter(number) {
     return fToC;
     //document.getElementById("celsius").innerHTML = (number-32) / 1.8;
   }
-
+//Added QUnit Test
   QUnit.test("tempConverter", function(assert) {
 	assert.equal(tempConverter(32), 0, "32 degrees Fahrenheit == 0 degrees Celsius");
 	assert.equal(tempConverter(23), -5, "23 degrees Fahrenheit == -5 degrees Celsius");
