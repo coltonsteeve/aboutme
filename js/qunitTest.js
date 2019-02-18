@@ -11,5 +11,4 @@ function tempConverter(number) {
 	assert.equal(tempConverter(50), 10, "50 degrees Fahrenheit == 10 degrees Celsius");
 	assert.equal(tempConverter(5), -15, "5 degrees Fahrenheit == -15 degrees Celsius");
 	assert.equal(tempConverter(500), 260, "500 degrees Fahrenheit == 260 degrees Celsius");
-	assert.equal(tempConverter('c'), undefined, "Cannot enter a character");
  });
