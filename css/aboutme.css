@@ -2,6 +2,10 @@ html {
     overflow-x: hidden; 
 }
 
+* {
+    box-sizing: border-box;
+  }
+
 body {
     font-family: sans-serif;
     /*background-image: url(../images/IMG_20170708_173933.jpg);
@@ -23,7 +27,7 @@ h1 {
     background-color: grey;
 }
 
-#intro {
+#header {
     margin: 2em;
     margin-top: 4em;
 }
@@ -124,3 +128,92 @@ input[type=text], select, textarea {
   .foot {
       margin-top: 2em;
   }
+
+  #intro {
+      width: 100%;
+  }
+
+  @media screen and (max-width: 800px) {
+    #intro, #background, #plans, #fact, #links, #actualpic, #video {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  @media screen and (max-width: 800px) {
+    #middle {
+        margin: 2em;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        column-gap: 6em;
+        row-gap: 1em;
+    }
+    #bottom {
+        margin: 2em;
+        margin-top: 10em;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        column-gap: 6em;
+        row-gap: 1em;
+    }
+      #intro {
+          grid-column-start: 1;
+          grid-row-start: 1;
+      }
+      #background {
+          grid-column-start: 1;
+          grid-row-start: 2;
+      }
+      #plans {
+          grid-column-start: 1;
+          grid-row-start: 3;
+      }
+      #fact {
+          grid-column-start: 1;
+          grid-row-start: 4;
+      }
+      #profilepic {
+          grid-column-start: 1;
+          grid-row-start: 5;
+          margin-top: -1em;
+      }
+      #links {
+          grid-column-start: 1;
+          grid-row-start: 1;
+      }
+      .tg {
+          grid-column-start: 1;
+          grid-row-start: 2;
+      }
+      #japanpic {
+          grid-column-start: 1;
+          grid-row-start: 3;
+      }
+      #video {
+          grid-column-start: 1;
+          grid-row-start: 4;
+          margin-top: 5em;
+      }
+  }
+  @media screen and (max-width: 500px) {
+    #middle {
+        margin: 2em;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        column-gap: 6em;
+        row-gap: 2em;
+    }
+    #bottom {
+        margin: 2em;
+        margin-top: 10em;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        column-gap: 6em;
+        row-gap: 2em;
+    }
+    #actualpic {
+        width: 350px;
+    }
+}
